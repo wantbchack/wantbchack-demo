@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 /**
  * @author: fanxiaobin
  * @Date: 2021/05/31/15:18
+ * 感谢原作者yangkai.shen
  */
 @SpringBootApplication
 @ServletComponentScan
