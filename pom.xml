@@ -28,6 +28,9 @@
         <fastjson.version>1.2.75</fastjson.version>
         <slf4j.version>1.7.25</slf4j.version>
         <lang3.version>3.4</lang3.version>
+        <spring.boot.start.version>2.4.3</spring.boot.start.version>
+        <logback.version>1.2.3</logback.version>
+        <logback.core.version>1.2.3</logback.core.version>
     </properties>
 
     <!--子模块继承之后，锁定版本+子模块不用写 groupid 和 version -->
@@ -40,6 +43,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring.boot.start.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
