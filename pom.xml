@@ -11,6 +11,7 @@
     <modules>
         <module>demo-business</module>
         <module>demo-task</module>
+        <module>quotation-auto-generated</module>
     </modules>
 
     <!-- 统一管理 jar 包版本 -->
