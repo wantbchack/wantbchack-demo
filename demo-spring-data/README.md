@@ -30,7 +30,7 @@
  第二种：@Temporal(TemporalType.TIME)——>实体类会封装成时间“hh-MM-ss”的 Date类型。
  第三种：@Temporal(TemporalType.TIMESTAMP)——>实体类会封装成完整的时间“yyyy-MM-dd hh:MM:ss”的 Date类型。
  
- ###@CreatedDate/@LastModifiedDate注解的使用
+ ### @CreatedDate/@LastModifiedDate注解的使用
  >@CreatedDate
   表示该字段为创建时间时间字段，在这个实体被insert的时候，会设置值
   @CreatedBy
