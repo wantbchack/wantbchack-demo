@@ -13,7 +13,7 @@
 
 3.@MappedSuperclass标识得**不能再有@Entity或@Table注解**
 
-###@Column注解使用
+### @Column注解使用
 >使用条件映射数据库里面的字段
 
 **注解使用:**
@@ -24,7 +24,7 @@
 
 3.updatable:是否可以更新,默认打开,等于false为不能更新
 
-###@Temporal()注解的使用
+### @Temporal()注解的使用
 >数据库的字段类型有date、time、datetime
  而Temporal注解的作用就是帮Java的Date类型进行格式化，一共有三种注解值：第一种：@Temporal(TemporalType.DATE)——>实体类会封装成日期“yyyy-MM-dd”的 Date类型。
  第二种：@Temporal(TemporalType.TIME)——>实体类会封装成时间“hh-MM-ss”的 Date类型。
@@ -46,7 +46,7 @@
   这个时候，在jpa.save方法被调用的时候，时间字段会自动设置并插入数据库，但是CreatedBy和LastModifiedBy并没有赋值，因为需要实现AuditorAware接口来返回你需要插入的值。
   
   
- ###@OneToMany注解使用
+ ### @OneToMany注解使用
  
 ```java
 package com.wantbachk.springdata.entity.base;
