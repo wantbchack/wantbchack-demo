@@ -81,7 +81,20 @@ fetch属性代表加载方式有 FetchType.LAZY 和 FetchType.EAGER两种。
 
 > @ManyToOne 类似于@OneToMany详细可以看代码使用
 
-
+###  @ManyToMany注解使用
+> 注释：表示此类是多对多关系的一边，mappedBy 属性定义了此类为双向关系的维护端，注意：mappedBy 属性的值为此关系的另一端的属性名。
+```java
+    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinTable(name = "student_teacher",joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "id")
+            ,inverseJoinColumns =@JoinColumn(name = "teacher_id",referencedColumnName = "id"))
+    private List<Teacher> teachers;
+```
+**注解使用:**
+@JoinTable 描述了多对多关系的数据表关系。
+name 属性指定中间表名称，
+joinColumns 定义中间表与Teacher 表的外键关系。
+inverseJoinColumns 属性定义了中间表与另外一端(Student)的外键关系。
+mappedBy：使用此属性的那一端，就意味着放弃了对关系的维护，也不能增删改查中间表的关系；/2、2、@JoinTable：中间表的名字及字段
 
 ### @JoinColumn注解使用
 
