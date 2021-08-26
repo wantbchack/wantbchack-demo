@@ -12,8 +12,7 @@
         <module>demo-init</module>
         <module>demo-task</module>
         <module>quotation-auto-generated</module>
-        <module>demo-jpa</module>
-        <module>demo-spring-data</module>
+        <module>demo-spring-data-jpa</module>
     </modules>
 
     <!-- 统一管理 jar 包版本 -->
