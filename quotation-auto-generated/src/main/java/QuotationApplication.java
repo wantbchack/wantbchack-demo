@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
 
+/**
+ * @author fanxiaobin
+ */
 @SpringBootApplication
 @ServletComponentScan
 public class QuotationApplication {
