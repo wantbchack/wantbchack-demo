@@ -1,0 +1,25 @@
+2021-11-02 14:46:28.128 [main] INFO  com.wantbchack.redis.RedisApplication - Starting RedisApplication on LAPTOP-0UIGFGDO with PID 27392 (C:\Users\wantbchack\Desktop\wantbchack-demo\demo-redis\target\classes started by wantbchack in C:\Users\wantbchack\Desktop\wantbchack-demo) 
+2021-11-02 14:46:28.256 [main] INFO  com.wantbchack.redis.RedisApplication - No active profile set, falling back to default profiles: default 
+2021-11-02 14:50:35.466 [main] INFO  com.wantbchack.redis.RedisApplication - Starting RedisApplication on LAPTOP-0UIGFGDO with PID 10624 (C:\Users\wantbchack\Desktop\wantbchack-demo\demo-redis\target\classes started by wantbchack in C:\Users\wantbchack\Desktop\wantbchack-demo) 
+2021-11-02 14:50:35.471 [main] INFO  com.wantbchack.redis.RedisApplication - No active profile set, falling back to default profiles: default 
+2021-11-02 14:50:36.847 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2021-11-02 14:50:36.853 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2021-11-02 14:50:36.901 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces. 
+2021-11-02 14:50:38.598 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7000 (http) 
+2021-11-02 14:50:38.625 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"] 
+2021-11-02 14:50:38.642 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-11-02 14:50:38.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12 
+2021-11-02 14:50:38.660 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\gradle-4.2\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Go\bin;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\wantbchack\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\wantbchack\AppData\Local\Programs\Python\Python38\;C:\Users\wantbchack\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\wantbchack\go\bin;C:\Users\wantbchack\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\Fiddler;D:\DataGrip 2021.2.4\bin;;.] 
+2021-11-02 14:50:39.008 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-11-02 14:50:39.009 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3462 ms 
+2021-11-02 14:50:39.065 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2021-11-02 14:50:39.075 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2021-11-02 14:50:39.075 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2021-11-02 14:50:39.076 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*] 
+2021-11-02 14:50:39.076 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2021-11-02 14:50:39.670 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-11-02 14:50:40.079 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"] 
+2021-11-02 14:50:40.096 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2021-11-02 14:50:40.129 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7000 (http) with context path '' 
+2021-11-02 14:50:40.135 [main] INFO  com.wantbchack.redis.RedisApplication - Started RedisApplication in 5.332 seconds (JVM running for 6.035) 
+2021-11-02 14:50:40.139 [main] INFO  com.wantbchack.redis.RedisApplication - demoRedis start success!!!!! 

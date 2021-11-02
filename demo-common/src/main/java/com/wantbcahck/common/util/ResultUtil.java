@@ -1,8 +1,8 @@
-package com.wantbchack.quotation.util;
+package com.wantbcahck.common.util;
 
 
-import com.wantbchack.quotation.dto.Result;
-import com.wantbchack.quotation.enums.ResultEnum;
+import com.wantbcahck.common.dto.Result;
+import com.wantbcahck.common.enums.ResultEnum;
 
 public class ResultUtil {
     /**成功且带数据**/

@@ -1,9 +1,10 @@
 package com.wantbchack.redis.controller;
 
 
-import com.wantbchack.redis.dto.Result;
-import com.wantbchack.redis.dto.business.MyReq;
-import com.wantbchack.redis.util.ResultUtil;
+
+import com.wantbcahck.common.dto.Result;
+import com.wantbcahck.common.dto.business.MyReq;
+import com.wantbcahck.common.util.ResultUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

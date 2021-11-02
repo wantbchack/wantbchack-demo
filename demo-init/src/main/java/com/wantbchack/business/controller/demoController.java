@@ -1,8 +1,9 @@
 package com.wantbchack.business.controller;
 
-import com.wantbchack.business.dto.Result;
-import com.wantbchack.business.dto.business.MyReq;
-import com.wantbchack.business.util.ResultUtil;
+
+import com.wantbcahck.common.dto.Result;
+import com.wantbcahck.common.dto.business.MyReq;
+import com.wantbcahck.common.util.ResultUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author wantbchack
+ */
 @RestController
 @RequestMapping("/demo")
 public class demoController {

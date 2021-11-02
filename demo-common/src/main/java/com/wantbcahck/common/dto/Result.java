@@ -1,4 +1,4 @@
-package com.wantbchack.business.dto;
+package com.wantbcahck.common.dto;
 
 public class Result<T> {
 

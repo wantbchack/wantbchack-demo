@@ -1,4 +1,4 @@
-package com.wantbchack.business.dto;
+package com.wantbcahck.common.dto;
 
 import java.util.List;
 

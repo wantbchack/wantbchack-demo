@@ -1,7 +1,10 @@
-package com.wantbchack.business.dto.business;
+package com.wantbcahck.common.dto.business;
 
 
 
+/**
+ * @author wantbchack
+ */
 public class MyReq {
 
     private String msg;

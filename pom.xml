@@ -14,6 +14,7 @@
         <module>quotation-auto-generated</module>
         <module>demo-spring-data-jpa</module>
         <module>demo-redis</module>
+        <module>demo-common</module>
     </modules>
 
     <!-- 统一管理 jar 包版本 -->
