@@ -1,6 +1,6 @@
 ### SpringBoot集成Redis
 
-####导入依赖:
+#### 导入依赖:
 
 ```xml
 <dependency>
@@ -10,7 +10,7 @@
 </dependency>
 ```
 
-####配置application.properties
+#### 配置application.properties
 
 ```properties
 server.port=7000
@@ -23,13 +23,13 @@ spring.redis.port=6379
 spring.redis.password=
 ```
 
-####启动Redis服务器
+#### 启动Redis服务器
 
 ```cmd
 redis-server.exe redis.windows.conf
 ```
 
-####使用RedisTemplate
+#### 使用RedisTemplate
 
 ```java
 @Autowired
