@@ -1,6 +1,5 @@
 package com.wantbchack.springdata.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.wantbchack.springdata.entity.base.AbstractAuditModel;
 import lombok.*;
 
