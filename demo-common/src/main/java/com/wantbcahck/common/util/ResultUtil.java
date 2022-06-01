@@ -35,5 +35,12 @@ public class ResultUtil {
         return result;
     }
 
+        /**失败**/
+    public static Result error(ResultEnum resultEnum){
+        Result result = new Result();
+        result.setCode(resultEnum.getCode());
+        result.setMsg(resultEnum.getMsg());
+        return result;
+    }
 
 }
