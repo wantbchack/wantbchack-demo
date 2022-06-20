@@ -18,8 +18,9 @@
  
  * **2021-05-31** 提交**task**模块(**demo-task**)
  * **2021-08-26** 提交**spring-data-jpa**模块(**demo-spring-data-jpa**)
-  * **2021-11-01**提交**Redis**模块(**demo-redis**)
- * **2021-11-02**提交**common**模块(**demo-common**)
+ * **2021-11-01**提交**Redis**模块(**demo-redis**)
+ * **2021-11-02**提交**common**模块(**demo-common**)''
+ * **2022-06-01**在demo-init中提交**自定义注解以及AOP切面编程** 
   ### 3.其他操作
   > 记录其他像添加日志等操作
   
