@@ -34,7 +34,6 @@ public class MyAop {
 
     @Around("myAnnotaiton()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
-        log.info("通过第2个Aop");
         Object[] args = pjp.getArgs();
         //从切面织入点处通过反射机制获取织入点处的方法
         MethodSignature signature = (MethodSignature) pjp.getSignature();

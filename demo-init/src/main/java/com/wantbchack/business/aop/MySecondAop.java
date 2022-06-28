@@ -27,9 +27,7 @@ public class MySecondAop {
 
     @Around("checkParams()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
-        log.info("通过第1个Aop");
         Object[] args = pjp.getArgs();
-        log.info("log info {}",args);
         //获取切入点所在的方法
         if (args == null || args.length <1 || args[0] == null){
             return  ResultUtil.error(ResultEnum.UNKNOWN_ERROR);
