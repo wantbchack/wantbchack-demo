@@ -27,7 +27,8 @@ public class DemoController {
 
     @PostMapping("/list")
     @Myannotaiton
-    public Result list(@RequestBody(required = false) MyReq req){
+    public Result list(@RequestBody MyReq req){
+        logger.info("req:{}",req);
         return ResultUtil.success(req,"程序正常运行!!!!!");
     }
 

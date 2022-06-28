@@ -8,6 +8,7 @@ import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
@@ -17,6 +18,7 @@ import java.lang.reflect.Method;
  * Date 2022/6/1  10:59
  * Description
  */
+@Order(2)
 @Component
 @Aspect
 public class MyAop {
@@ -32,12 +34,8 @@ public class MyAop {
 
     @Around("myAnnotaiton()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
+        log.info("通过第2个Aop");
         Object[] args = pjp.getArgs();
-        log.info("log info {}",args);
-        //获取切入点所在的方法
-        if (args == null || args.length <1 || args[0] == null){
-            return  ResultUtil.error(ResultEnum.UNKNOWN_ERROR);
-        }
         //从切面织入点处通过反射机制获取织入点处的方法
         MethodSignature signature = (MethodSignature) pjp.getSignature();
         Method method = signature.getMethod();
@@ -45,17 +43,17 @@ public class MyAop {
         //获取请求的方法名
         String methodName = method.getName();
         String params = JSONUtil.toJsonStr(args);
-        log.info("className:{} methodName:{} params:{}",className,method,params);
+        log.info("className:{} methodName:{} params:{}",className,methodName,params);
         return  pjp.proceed();
     }
 
-    @Before("myAnnotaiton()")
-    public void before(){
-        log.info("在请求之前");
-    }
-
-    @After("myAnnotaiton()")
-    public void after(){
-        log.info("在请求之后");
-    }
+//    @Before("myAnnotaiton()")
+//    public void before(){
+//        log.info("在请求之前");
+//    }
+//
+//    @After("myAnnotaiton()")
+//    public void after(){
+//        log.info("在请求之后");
+//    }
 }

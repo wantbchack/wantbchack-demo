@@ -3,8 +3,6 @@ package com.wantbchack.business.controller.base;
 import com.wantbcahck.common.dto.Result;
 import com.wantbcahck.common.enums.ResultEnum;
 import com.wantbcahck.common.util.ResultUtil;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindException;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
