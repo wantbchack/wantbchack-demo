@@ -8,7 +8,7 @@ public enum ResultEnum {
     USER_IS_EXISTS(2,"用户已存在"),
     DATA_IS_NULL(3,"数据为空"),
     PARAMS(4,"参数错误"),
-    METHOD(5,"REQUEST METHOD ERROR")
+    METHOD(5,"请求方式错误")
     ;
     private Integer code;
     private String msg;
