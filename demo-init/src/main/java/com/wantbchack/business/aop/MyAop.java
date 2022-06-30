@@ -16,7 +16,7 @@ import java.lang.reflect.Method;
 /**
  * Create by  fanxiaobin
  * Date 2022/6/1  10:59
- * Description
+ * 自定义注解切点编程
  */
 @Order(2)
 @Component

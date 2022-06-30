@@ -15,8 +15,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
-
-
+/**
+ * Create by  fanxiaobin
+ * Date 2022/6/28  15:56
+ * 过滤器
+ */
 @WebFilter(filterName="fristFiilter", urlPatterns="/*")
 public class MyFilter implements Filter {
 
@@ -40,11 +43,11 @@ public class MyFilter implements Filter {
         byte[] responseData = responseWrapper.getResponseData();
         //将响应数据转换成字符穿 可以用来做加解密操作并且可以重新封装json字符串
         String orinalData = new String(responseData);
-        //加解密操作
-        long time = new Date().getTime();
-        logger.info("rulse {}",time );
-        String encode = symmetricEncoderUtil.AESEncode(time + "", orinalData);
-        String dncode = symmetricEncoderUtil.AESDncode(time + "", encode);
+//        //加解密操作
+//        long time = new Date().getTime();
+//        logger.info("rulse {}",time );
+//        String encode = symmetricEncoderUtil.AESEncode(time + "", orinalData);
+//        String dncode = symmetricEncoderUtil.AESDncode(time + "", encode);
         outputStream.write(orinalData.getBytes());
         outputStream.flush();
     }
