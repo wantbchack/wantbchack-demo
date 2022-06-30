@@ -72,8 +72,9 @@ public class MyFilter implements Filter {
         if(!(StringUtils.isNotBlank(method) && method.equals(RequestMethod.POST.name()))){
             result = ResultUtil.error(ResultEnum.METHOD);
         }
+        //如果请求body不是JSON
         String  body = new String(requestWrapper.getBody());
-        if (StringUtils.isEmpty(body) ||  "{}".equals(body)){
+        if (StringUtils.isEmpty(body){
             result = ResultUtil.error(ResultEnum.PARAMS);
         }
         return result;
