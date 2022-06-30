@@ -74,7 +74,7 @@ public class MyFilter implements Filter {
         }
         //如果请求body不是JSON
         String  body = new String(requestWrapper.getBody());
-        if (StringUtils.isEmpty(body){
+        if (StringUtils.isEmpty(body)){
             result = ResultUtil.error(ResultEnum.PARAMS);
         }
         return result;
